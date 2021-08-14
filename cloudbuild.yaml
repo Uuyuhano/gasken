@@ -2,8 +2,7 @@ steps:
 - name: 'gcr.io/qwiklabs-gcp-01-a283ef5c9db4 
 /docker'
   timeout: 86400s
-  args: [ 'build', '-t', 'gcr.io/qwiklabs-gcp-01-a283ef5c9db4 
-/dockerfile', '.' ]
+  args: [ 'build', '-t', 'gcr.io/qwiklabs-gcp-01-a283ef5c9db4/dockerfile', '.' ]
   timeout: 86400s
 timeout: 86400s
 options:
